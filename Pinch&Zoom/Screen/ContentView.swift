@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     //MARK: - PROPERTY
     
+
+    //MARK: - 
+
     @State private var isAnimating: Bool = false
     @State private var imageScale: CGFloat = 1
     @State private var imageOffset: CGSize = .zero
@@ -22,11 +25,21 @@ struct ContentView: View {
             imageOffset = .zero
         }
     }
+
     
     //MARK: - BODY
     
     
     var body: some View {
+
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+        }
+        .padding()
+
         
         
         NavigationStack {
@@ -89,6 +102,7 @@ struct ContentView: View {
                 )
         }//: NAVIGATION
         .navigationViewStyle(.stack)
+
 
     }
 }
