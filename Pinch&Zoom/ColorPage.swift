@@ -17,3 +17,8 @@ extension Color {
     static let rectangleStrokeColor = Color.black // HEX: #000000
     static let somethingIsMissingColor = Color(red: 0.19, green: 0.18, blue: 0.65) // HEX: #3030A7
 }
+
+let circleIcon = "circle.circle"
+let scaleArrowIcon = "arrow.up.left.and.arrow.down.right"
+let widthArrowIcon = "arrow.left.and.right"
+let heightArrowIcon = "arrow.up.and.down"
