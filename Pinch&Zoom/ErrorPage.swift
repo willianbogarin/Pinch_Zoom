@@ -15,9 +15,13 @@ struct ErrorPage: View {
 
         ZStack() {
           HStack(alignment: .top, spacing: 10) {
-            Text("Try to Reload")
-              .font(Font.custom("Nunito", size: 18).weight(.bold))
-              .foregroundColor(.white)
+              Button{
+                  
+              }label: {
+                  Text("Try to Reload")
+                      .font(Font.custom("Nunito", size: 18).weight(.bold))
+                      .foregroundColor(.white)
+              }
           }
           .padding(EdgeInsets(top: 10, leading: 64, bottom: 9, trailing: 64))
           .background(Color(red: 0.19, green: 0.18, blue: 0.65))
