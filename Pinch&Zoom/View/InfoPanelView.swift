@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct InfoPanelView: View {
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    InfoPanelView()
+
     
     var scale: CGFloat
     var offset: CGSize
@@ -65,4 +74,5 @@ struct InfoPanelView_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
             .padding()
     }
+
 }
